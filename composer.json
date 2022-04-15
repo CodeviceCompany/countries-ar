@@ -1,6 +1,6 @@
 {
-    "name": "squirephp/countries-fr",
-    "description": "A library containing the French translation of Squire's Country model.",
+    "name": "codevicecompany/countries-ar",
+    "description": "A library containing the Arabic translation of Squire's Country model.",
     "keywords": [
         "squire"
     ],
@@ -14,6 +14,10 @@
         {
             "name": "Dan Harrin",
             "email": "dan@danharrin.com"
+        },
+        {
+            "name": "Amine TIYAL",
+            "email": "aminetiyal@gmail.com"
         }
     ],
     "require": {
@@ -30,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Squire\\CountriesFrServiceProvider"
+                "Squire\\CountriesArServiceProvider"
             ]
         }
     },
