@@ -9,6 +9,6 @@ class CountriesArServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
-        Repository::registerSource(Country::class, 'fr', __DIR__ . '/../resources/data.csv');
+        Repository::registerSource(Country::class, 'ar', __DIR__ . '/../resources/data.csv');
     }
 }
